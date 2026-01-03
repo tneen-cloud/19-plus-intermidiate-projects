@@ -1,0 +1,67 @@
+.stock-tracker {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.stocks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.stock-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #667eea;
+}
+
+.stock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.stock-header h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.stock-header p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.price-change {
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.price-change.positive {
+  background: #d4edda;
+  color: #155724;
+}
+
+.price-change.negative {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.stock-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+

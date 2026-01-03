@@ -1,0 +1,115 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.summary {
+  margin-bottom: 30px;
+}
+
+.total {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.total h2 {
+  margin-bottom: 10px;
+}
+
+.amount {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.expense-form input,
+.expense-form select {
+  flex: 1;
+  min-width: 150px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.expense-form button {
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.expenses-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.expense-info h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.expense-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.expense-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #667eea;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.empty {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+}
+

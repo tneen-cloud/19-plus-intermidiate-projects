@@ -1,0 +1,100 @@
+.travel-planner {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.add-trip {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.add-trip h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.add-trip input,
+.add-trip textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.add-trip button {
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.trips-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.trip-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.trip-icon {
+  font-size: 3rem;
+}
+
+.trip-info {
+  flex: 1;
+}
+
+.trip-info h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.trip-date {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.trip-notes {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.delete-btn {
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.empty {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+}
+
