@@ -1,0 +1,89 @@
+.recipe-platform {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.add-recipe {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.add-recipe h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.add-recipe input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.add-recipe button {
+  padding: 12px 24px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.recipe-card {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.recipe-card h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.recipe-time {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.ingredients {
+  margin-top: 15px;
+}
+
+.ingredients ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.ingredients li {
+  padding: 5px 0;
+  color: #555;
+}
+
+.ingredients li:before {
+  content: "• ";
+  color: #667eea;
+  font-weight: bold;
+}
+

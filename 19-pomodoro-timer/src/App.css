@@ -1,0 +1,79 @@
+.pomodoro {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.timer-display {
+  margin-bottom: 30px;
+}
+
+.time {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: 'Courier New', monospace;
+  margin-bottom: 10px;
+}
+
+.time.work {
+  color: #e74c3c;
+}
+
+.time.break {
+  color: #27ae60;
+}
+
+.session-type {
+  font-size: 1.5rem;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.controls {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.controls button {
+  padding: 15px 30px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls button:hover {
+  background: #5568d3;
+}
+
+.stats {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.stat h3 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #667eea;
+}
+
